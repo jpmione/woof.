@@ -17,7 +17,7 @@ body{
 
 
 #navbar{
-  position: relative;
+  position: absolute;
   z-index: 100;
   height: 50px;
   font-family: sans-serif;
@@ -30,11 +30,16 @@ body{
 #navbar a{
   text-align: center;
   display: inline-block;
-  color: ddd;
+  color: fff;
   text-decoration: none;
   padding: 10px;  
 
 }
+
+
+
+
+
 
 .foo,
 .foo:before,
@@ -99,5 +104,9 @@ body{
   to{
     -webkit-transform: rotate(1080deg) scale(5);
   }
-  
-}
+
+
+
+
+
+
