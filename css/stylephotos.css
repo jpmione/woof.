@@ -8,12 +8,14 @@ body{
 }
 
 #woof{
-  padding-left: 44%;
-  color: yellow;
+  padding-left: 43%;
+  color: rgb(229, 253, 7);
   font-family: sans-serif;
-  font-size: 48px;
+  font-size: 56px;
   font-style: italic;
+  opacity: .75;
 }
+
 
 
 #navbar{
@@ -25,15 +27,16 @@ body{
   font-size: 25px;
   line-height: 50px;
   padding-left: 33%;
+
 }
 
 #navbar a{
   text-align: center;
   display: inline-block;
-  color: fff;
   text-decoration: none;
   padding: 10px;  
-
+  color: white;
+  opacity: .75;
 }
 
 #photos {
@@ -50,6 +53,7 @@ body{
     cursor: pointer;
     cursor: hand;
     opacity: 0.5;
+    padding: 2px;
 }
 
 #lightbox {
@@ -61,4 +65,22 @@ body{
     height:100%;
     width:100%;
     opacity: 0.75;
+}
+
+.focused {
+    z-index: 10;
+    position: absolute;
+    top:30%;
+    left:25%;
+``/*top:160px;
+    left:350px;*/
+}
+
+#music {
+  margin-top: 175px;
+  padding-left: 465px
+}
+
+.cloud {
+  padding: 10px;
 }
