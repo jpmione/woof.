@@ -13,14 +13,21 @@ $(function(){
 	});
 
 	$("img.thumbnail").on("click", function() {
-		var imgTag = "<img class='focused' src='" + this.src + "'>";
+		$(".big").remove();
+		var imgTag = "<img class='big' src='" + this.src + "'>";
 		$("#lightbox").show();
 		$("body").append(imgTag);
 		$("body").addClass("noscroll");
+
+		$(".big").on("click", function() {
+			$(".big").remove();
+		});
 	});
+	
+
 	$("#lightbox").on("click", function() {
 		$(this).hide();
-		$(".focused").remove();
+		$(".big").remove();
 		$("body").removeClass("noscroll");
 	});
 });

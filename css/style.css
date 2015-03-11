@@ -1,4 +1,6 @@
-html,body{height: 100%;}
+html, body {
+  height: 100%;
+}
 body{
   background-color: black;
   background-image: -webkit-radial-gradient(center center, circle cover, rgba(255,255,355, 0.2), transparent 50%)
@@ -88,7 +90,7 @@ p {
     opacity: 0.75;
 }
 
-.focused {
+.big {
     z-index: 10;
     position: absolute;
     top:30%;
